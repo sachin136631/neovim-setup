@@ -22,5 +22,4 @@ local opts = {}
 require("lazy").setup("plugins")
 require("vim-options")
 
-
-
+--okay so ethekinlum puthia language install cheyyeaanenki go install its lsp linter and formatter
