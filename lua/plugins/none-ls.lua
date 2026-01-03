@@ -6,7 +6,7 @@ return {
 			sources = {
 				null_ls.builtins.formatting.stylua, --formatter for lua
         null_ls.builtins.formatting.black, --formatter for python
-        null_ls.builtins.diagnostics.ruff, --linter for python
+
 			},
 		})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
